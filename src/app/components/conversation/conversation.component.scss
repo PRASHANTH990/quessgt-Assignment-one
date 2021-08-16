@@ -1,0 +1,52 @@
+.conversation {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 25px #bcbdd640;
+  border-radius: 5px;
+  opacity: 1;
+  height: 86vh;
+  margin-top: 70px;
+}
+
+.page-title {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-title p {
+  text-align: left;
+  font: normal normal 600 20px/30px Poppins;
+  letter-spacing: 0px;
+  color: #4e4e5a;
+  opacity: 1;
+}
+
+.page-title button {
+  height: 33px;
+  background: var(--unnamed-color-3a8e82) 0% 0% no-repeat padding-box;
+  background: #3a8e82 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #3a8e8242;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  text-align: center;
+  font: normal normal medium 12px/18px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.conversation_list {
+  height: 70vh;
+  overflow: scroll;
+}
+
+.conversation_list_item {
+  padding: 30px 20px 0px 20px;
+  display: block;
+}
+
+.conversation_list li.conversation_list_item {
+  list-style: none;
+}

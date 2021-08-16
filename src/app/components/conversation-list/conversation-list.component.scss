@@ -1,0 +1,28 @@
+.conversation_details_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conversation_details_title .conversation_details_title_name {
+  font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-14) /
+    var(--unnamed-line-spacing-21) var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-292931);
+  text-align: left;
+  font: normal normal bold 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #292931;
+  opacity: 1;
+}
+
+.conversation_details_message {
+  font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-14) /
+    var(--unnamed-line-spacing-21) var(--unnamed-font-family-poppins);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-292931);
+  text-align: left;
+  font: normal normal bold 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #292931;
+  opacity: 1;
+}
